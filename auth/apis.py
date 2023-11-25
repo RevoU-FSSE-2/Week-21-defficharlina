@@ -30,7 +30,8 @@ def register():
 
     return {
         'id': new_user.id,
-        'username': new_user.username
+        'username': new_user.username,
+        'bio': new_user.bio
     }
 
 
