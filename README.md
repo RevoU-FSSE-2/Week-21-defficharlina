@@ -4,9 +4,6 @@ This project build a version of Twitter-like API using Flask includes of registr
 ## Flask
 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
-## Installation
-
-
 ## API Endpoints
 ### Registration
 - **URL:** `/auth/registration`
@@ -70,6 +67,26 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 
   <p align="center">
     <img src="image/unfollow.JPG" width="600">
+  </p>
+
+
+## SQLAlchemy Database using Supabase
+- **User Table**
+
+  <p align="center">
+    <img src="image/user table.JPG" width="600">
+  </p>
+
+
+- **Tweet Table**
+  <p align="center">
+    <img src="image/tweet table.JPG" width="600">
+  </p>
+
+
+- **Followers Table**
+  <p align="center">
+    <img src="image/followers table.JPG" width="600">
   </p>
 
 
