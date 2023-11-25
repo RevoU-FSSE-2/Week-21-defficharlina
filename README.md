@@ -13,11 +13,11 @@ Flask is a micro web framework written in Python. It is classified as a microfra
   - `password` (string): The password.
   - `bio` (string): The short 'about me' summary.
 
-### Example
-
   <p align="center">
     <img src="image/register.JPG" width="600">
   </p>
+
+
 
 ### Login
 - **URL:** `/auth/login`
@@ -26,21 +26,21 @@ Flask is a micro web framework written in Python. It is classified as a microfra
   - `username` (string): The username.
   - `password` (string): The password.
 
-### Example
-
   <p align="center">
     <img src="image/login.JPG" width="600">
   </p>
+
+
 
   ### User Profile
 - **URL:** `/user`
 - **Method:** `GET`
 
-### Example
-
   <p align="center">
     <img src="image/get user profile.JPG" width="600">
   </p>
+
+
 
   ### Post a Tweet
 - **URL:** `/post/tweet`
@@ -48,18 +48,16 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 - **Request Body:**
   - `tweet` (string): The twitter message displayed on a user's profile page.
 
-### Example
-
   <p align="center">
     <img src="image/post tweet.JPG" width="600">
   </p>
+
+
 
   ### Following
 - **URL:** `/follow/id`
 - **URL:** `/unfollow/id`
 - **Method:** `POST`
-
-### Example
 
   <p align="center">
     <img src="image/follow.JPG" width="600">
@@ -70,6 +68,8 @@ Flask is a micro web framework written in Python. It is classified as a microfra
   <p align="center">
     <img src="image/unfollow.JPG" width="600">
   </p>
+
+
 
 ## File .env
 ```sh
