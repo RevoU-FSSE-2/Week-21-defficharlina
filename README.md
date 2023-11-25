@@ -1,5 +1,5 @@
 # Twitter-like API using Flask
-This project build a verdion of Twitter-like API using Flask includes of registration, posting tweets, following/unfollowing users, and retrieving user profiles.
+This project build a version of Twitter-like API using Flask includes of registration, posting tweets, following/unfollowing users, and retrieving user profiles.
 
 ## Flask
 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
@@ -58,8 +58,6 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 - **URL:** `/follow/id`
 - **URL:** `/unfollow/id`
 - **Method:** `POST`
-- **Request Body:**
-  - `tweet` (string): The twitter message displayed on a user's profile page.
 
 ### Example
 
@@ -74,7 +72,7 @@ Flask is a micro web framework written in Python. It is classified as a microfra
   </p>
 
 ## File .env
-```json
+```sh
 DATABASE_URL="postgresql://postgres:Deff1ch4rl1n4@db.nqvqyweykpusjmqbksug.supabase.co:5432/postgres"
 SECRET_KEY="defficharlina"
 ```
